@@ -34,35 +34,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onSubmit"
-            android:text="@string/sprinkles_text" />
+            android:text="@string/sprinkles_text"
+            android:buttonTint="@android:color/holo_blue_dark"/>
 
         <CheckBox
             android:id="@+id/crushed_nuts_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onSubmit"
-            android:text="@string/crushed_nuts_text" />
+            android:text="@string/crushed_nuts_text"
+            android:buttonTint="@android:color/holo_blue_dark"/>
 
         <CheckBox
             android:id="@+id/cherries_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onSubmit"
-            android:text="@string/cherries_text" />
+            android:text="@string/cherries_text"
+            android:buttonTint="@android:color/holo_blue_dark"/>
+
 
         <CheckBox
             android:id="@+id/orio_box"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onSubmit"
-            android:text="@string/orio_cookie_crumbles_text" />
+            android:text="@string/orio_cookie_crumbles_text"
+            android:buttonTint="@android:color/holo_blue_dark"/>
 
         <Button
             android:id="@+id/show_toast_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="show_toast"
-            android:text="@string/show_toast_label" />
+            android:text="@string/show_toast_label"
+            android:buttonTint="@android:color/holo_blue_dark"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
